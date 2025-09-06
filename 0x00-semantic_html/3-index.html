@@ -1,0 +1,86 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="descruption" content="A blog post about semantic HTML and accessibility practises" />
+		<meta name="keywords" content="HTML, Semantic, Accessibility, Blog,SEO" />
+		<meta name="author" content="Otega Otite" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> Semantic Html Blog Post </title>
+
+	</head>
+
+
+	<body>
+		<!-- Header -->
+		<header>
+			<h1>My blog</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		</header>
+
+		<!-- Main sectiin -->
+		<main>
+			<article>
+				<header>
+					<h2> Understanding Semantic Html</h2>
+					<p> Published on <time datetime=”2024-09-10”> September 10 </p>
+
+				</header>
+				<h1>The title</h1>
+				<section>
+					<h3> Introduction</h3>
+					<p> Semantic HTML helps improve the accessibility and SEO of your website. In this post, we’ll explore its benefits and how to implement it.</p>
+				</section>
+				<section>
+					<h3> Main content</h3>
+					<p>
+						<figure>
+							<img src="" alt="example" />
+							<figcaption>: An illustration of semantic HTML elements </figcaption>
+						</figure>
+
+					</p>
+				</section>
+
+				<section> 
+					<h3>Conclusion</h3>
+					<p>By adopting semantic HTML, you enhance your site's accessibility, improve SEO, and make the content easier to navigate.</p>
+				</section>
+
+				<footer>
+					<p>Written by Otega Otite</p>
+					<p>Published on 2024-09-11</p>
+				</footer>
+			</article>
+			<section>
+				<form action="#" method="POST" aria-labelledby="formtitle" role="form">
+					<div>
+						<label for="name">Name</label>
+						<input type="text"id="name" name="name" aria-reqhired="true">
+					</div>
+					<div>                                                                    <label for="email">Emall</label>
+                                                <input type="text"id="email" name="email" aria-reqhired="true">                                                           </div>
+					<div>
+						<button type="submit" aria-label="Submitthe form"> Submit</button>
+					</div>
+					<div aria-live="0olite" role="alert">
+
+					</div>
+
+				</form>
+			</section>
+		</main>
+
+		<!-- Footer section -->
+		<footer>
+			<p> &copy;Copyright </p>
+		</footer>
+	</body>
+
+</html>
