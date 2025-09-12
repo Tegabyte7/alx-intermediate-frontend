@@ -1,0 +1,3 @@
+Steps to install SASS
+1. I ensured node is installed in my pc
+2. I installed the sass using the command `npm install sass -v 3.7.4` in my terminal.
